@@ -59,13 +59,8 @@ p {
 }
 
 .logo-icon {
-  min-height: 30px;
-  height: 30px;
-  background-image: url("https://raja-builders.vr-thamil.com/favicon.ico");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-
+  padding: 15px;
+  width: 25%;
 }
 
 .primary-bg-color {
@@ -450,6 +445,14 @@ textarea {
 
 .contact .form input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+.notes {
+	text-align: center;
+}
+
+.notes-icon {
+	width: 25%;
 }
 
 /*FOOTER*/
