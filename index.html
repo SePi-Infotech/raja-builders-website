@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-	<link rel="shortcut icon" href="https://sepi-infotech.w3spaces.com/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="https://raja-builders.vr-thamil.com/favicon.ico" type="image/x-icon">
   </head>
   <body>
 
-      <div class="navigation w3-highway-blue w3-container">
+      <div class="navigation primary-bg-color w3-container">
         <nav class="nav-container w3-padding-large">
           <div class="logo">
-            <a href="#home" ><span>Raja</span>&nbsp;Builders</a>
+			<div class="logo-icon"></div>
+            <b><a href="#home" ><span>Raja</span>&nbsp;Builders</a></b>
           </div>
           <div class="mobile-button">
             <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
@@ -26,9 +27,10 @@
           <div class="links">
             <a href="#about" >About</a>
             <a href="#services" >Services</a>
+			<a href="#gallery" >Gallery</a> 
             <a href="#contact" >Contact</a>            
           </div>
-          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+          <div id="mobile-sidenav" class="mobile-links primary-bg-color">
             <div class="mobile-logo" style="display: inline;">
               <a href="#home" class="logo"><span>Raja</span>&nbsp;Builders</a>
               <span style="width: 100%;"></span>
@@ -41,25 +43,20 @@
         </nav>
       </div>
 
-      <div class="hero" id="home">
+      <div class="primary" id="home">
         <div class="text container">
-          <p class="pre-title">Your dream house comes to reality here</p>
+          <p class="pre-title">Your dream house comes to reality here...</p>
           <h1 class="title"> <span>Raja</span>&nbsp;Builders</h1>
           <p class="post-title">20 ஆண்டுகளுக்கு மேலாக வீடு மற்றும் அலுவலக கட்டுமானப்பணியில்...</p>
-          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#services">OUR SERVICES</a> 
+          <a class="w3-button w3-round-large primary-button" href="#services">OUR SERVICES</a> 
         </div>
       </div>
 
       <div class="about container w3-padding-large" id="about">
         <div class="text-one">
           <h2>About Us</h2>
-          <p>We build softwares for your business needs to ease your work complexity. From the knowledges we gained being a professional software engineers, we could guide the students or the job seekers to grab the core concept of technologies and to crack any Tier I & Tier II level companies.</p>
-          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="about.html">Read more</a> 
-        </div>
-        <div class="text-one">
-          <h2>Our Vision</h2>
-          <p>We, Raja Builders, empower tech aspirants with the leading technologies in the industry. We also make softwares for your business needs as well as for college projects. And we share our experiences to the world</p>
-          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="vision.html">Read more</a> 
+          <p>20 ஆண்டுகளாக சிறந்த முறையில், தரமாகவும், வடிவமைப்பில் நேர்த்தியாகவும் budget, mid-range, premium, smart house வகை வீடுகள் விற்பனைக்கு மற்றும் contract முறையில் கட்டித்தரப்படும் ஒரு நம்பகமான நிறுவனம்.</p>
+		  <p></p>
         </div>
       </div>
 
@@ -67,43 +64,47 @@
         <h2 class="w3-center">Our services</h2>
         <div class="cards w3-padding-large w3-margin-top">
           <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>WEB DEVELOPMENT</h3>
+            <h3>New House Sales</h3>
             <div class="card-text">
-              <p>We will build your website and fulfill all your needs.</p>
+              <p>1BHK, 2BHK ready to occupy houses in budget, mid and premium ranges</p>
             </div>
           </div>
           <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>MOBILE DEVELOPMENT</h3>
+            <h3>2D & 3D Design</h3>
             <div class="card-text">
               <p>We will build your mobile application and fulfill all your needs.</p>
             </div>
           </div>
           <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>CONSULTING</h3>
+            <h3>Smart House Construction</h3>
             <div class="card-text">
               <p>We offer <span class="">free</span> consultation about your idea and offer you best approach on how to realize it.</p>
             </div>
           </div>
           <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>DIGITAL MARKETING</h3>
+            <h3>Labour Contracting</h3>
             <div class="card-text">
               <p>We will ensure that your idea is well known in attempt to gather user base and expand your idea.</p>
             </div>
           </div>
           <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>SOFTWARE TRAINING</h3>
+            <h3>Civil Consulting</h3>
             <div class="card-text">
               <p>We offer many trending technologies courses with more hands-on training.</p>
             </div>
           </div>
           <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>MOCK INTERVIEW & JOB REFERENCE</h3>
+            <h3>Reals</h3>
              <div class="card-text">
               <p>We will guide through the resume building, conducting mock interview and arrange job interview for you by reference</p>
             </div>
           </div>
         </div>
       </div>
+	  
+	  <div class="gallery container" id="gallery">
+		<h2 class="w3-center">Gallery</h2>
+	  </div>
 
       <div class="contact container" id="contact">
         <div class="short-contact">
@@ -112,35 +113,20 @@
           <div class="w3-large w3-margin-top contact-info">
             <i class="fa fa-location-arrow"></i><span style="margin-left:10px;"><a href="https://www.google.com/maps/place/Millerpuram,+Sinnamani+Nagar,+Thoothukudi,+Tamil+Nadu+628008/@8.7996429,78.1211806,17z/data=!3m1!4b1!4m5!3m4!1s0x3b03efc2ef0616f3:0x2fb25edbf1aab074!8m2!3d8.8011745!4d78.1210798" target="_blank">Millerpuram, Thoothukudi</a></span><br>
             <i class="fa fa-envelope-o"></i><span style="margin-left:10px;"><a href="raja.builders.tn@gmail.com">raja.builders.tn@gmail.com</a></span><br>
-            <i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="+91 93426 01177">+91 93426 01177</a></span><br>
+            <i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="#">+91 93426 01177</a></span><br>
+			<i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="#">+91 97680 64875</a></span><br>
           </div>
           <div class="w3-large w3-margin-top contact-info">
-            <i class="fa fa-linkedin"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- LinkedIn</a></span><br>
-            <i class="fa fa-facebook"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;"> - Facebook</a></span><br>
-            <i class="fa fa-twitter"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Twitter</a></span><br>
+            <i class="fa fa-linkedin"></i><span style="margin-left:10px;"><a href="https://www.instagram.com/raja.builders.thoothukudi/" target="_blank" style="text-decoration: none;">- Instagram</a></span><br>
           </div>
         </div>
-        <div class="form w3-margin-top">
-          <div class="container w3-round-xlarge">
-            <form class="w3-highway-blue w3-padding-large w3-round-large">
-              <label for="fname">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name">
-
-              <label for="lname">email</label>
-              <input type="text" id="email" name="email" placeholder="Your email">
-
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              
-              <p>By submiting this form, you agree to our <a href="privacy-policy.html" target="_blank">privacy policy</a></p><br>
-              <input class="w3-metro-blue" type="submit" value="Submit">
-            </form>
-          </div>
+        <div class="map-location w3-margin-top">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.822654772135!2d78.12106681531063!3d8.802726094914256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b03ef8925f0bad5%3A0x6bd2af6616b53641!2sRaja%20Builders!5e0!3m2!1sen!2sin!4v1669209779021!5m2!1sen!2sin" width="600" height="450" style="border:0;padding:50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 
-      <div class=" w3-highway-blue w3-padding-large" id="footer">
-        <p class="w3-center logo">© 2022 - <span>Raja</span> Builders - All rights reserved</p>
+      <div class=" primary-bg-color w3-padding-large" id="footer">
+        <p class="w3-center logo">© 2022-23 <span>SePi</span> INFOTECH</p>
       </div>
 
   <script>
