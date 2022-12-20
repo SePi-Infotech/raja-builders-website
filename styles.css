@@ -60,18 +60,18 @@ p {
 
 .logo-icon {
   padding: 15px;
-  width: 25%;
+  width: 50%;
 }
 
 .primary-bg-color {
-  background-color: #000099 !important;
+  background-color: #3c2897 !important;
   color: #fff !important;
 }
 
 .primary-button {
   color: #fff !important;
-  background-color: #000099 !important;
-  border: 2px solid #000099;
+  background-color: #3c2897 !important;
+  border: 2px solid #3c2897;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -79,7 +79,7 @@ p {
 .primary-button:hover {
   color: #000 !important;
   background-color: #fff !important;
-  border: 2px solid #000099;
+  border: 2px solid #3c2897;
 }
 
 /*Navigation*/
@@ -385,7 +385,7 @@ p {
 .contact {
   min-height: 400px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
@@ -452,7 +452,7 @@ textarea {
 }
 
 .notes-icon {
-	width: 25%;
+	width: 40%;
 }
 
 /*FOOTER*/
